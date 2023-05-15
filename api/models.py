@@ -77,7 +77,7 @@ class Cart:
             else:
                 self.products[product] -= remove_count
         else:
-            raise ValueError('Корзина пустая.')
+            raise ValueError('Корзина пустая!')
 
     def clear(self):
         self.products.clear()
